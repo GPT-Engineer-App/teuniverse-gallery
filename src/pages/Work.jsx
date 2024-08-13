@@ -23,10 +23,10 @@ const Work = () => {
         <h2 className="text-3xl font-bold text-teun-800 mb-6">Teun's Work</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {projects.map((project, index) => (
-            <Card key={index} className="border-teun-200 hover:border-teun-400 transition-colors duration-300">
+            <Card key={index} className="border-teun-200 hover:border-teun-400 transition-colors duration-300 bg-white">
               <CardHeader>
                 <CardTitle className="text-teun-700">{project.title}</CardTitle>
-                <CardDescription className="text-teun-600">{project.description}</CardDescription>
+                <CardDescription className="text-teun-500">{project.description}</CardDescription>
               </CardHeader>
             </Card>
           ))}
