@@ -2,9 +2,9 @@ import React from 'react';
 
 const About = () => {
   return (
-    <div className="min-h-screen bg-green-50 py-12">
+    <div className="min-h-screen bg-teun-50 py-12">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold text-green-800 mb-6">About Teun van de Keuken</h2>
+        <h2 className="text-3xl font-bold text-teun-800 mb-6">About Teun van de Keuken</h2>
         <div className="bg-white rounded-lg shadow-md p-6">
           <p className="text-lg text-gray-700 mb-4">
             Teun van de Keuken is a Dutch journalist and television presenter known for his

@@ -51,6 +51,18 @@ module.exports = {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        teun: {
+          50: "#fff0f0",
+          100: "#ffdddd",
+          200: "#ffbbbb",
+          300: "#ff9999",
+          400: "#ff7777",
+          500: "#ff5555",
+          600: "#ff3333",
+          700: "#ff1111",
+          800: "#ee0000",
+          900: "#cc0000",
+        },
       },
       borderRadius: {
         lg: "var(--radius)",
